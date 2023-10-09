@@ -9,5 +9,6 @@
             "src":"/(.*)",
             "dest":"to_do_list/wsgi.py"
         }
-    ]
+    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
